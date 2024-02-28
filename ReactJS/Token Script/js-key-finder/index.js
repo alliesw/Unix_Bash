@@ -2,7 +2,8 @@
 $ npm install --save js-key-finder
 
 // Usage:
-
+var isKeyword = require('js-key-finder');
+isKeyword('this'); // returns true
 
 'use strict';
 
