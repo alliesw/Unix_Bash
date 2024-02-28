@@ -1,0 +1,16 @@
+//Installation
+npm install js-tokens
+
+import jsTokens from "js-tokens"
+// or:
+var jsTokens = require("js-tokens").default
+
+// Usage: 
+// jsTokens - A regex with the g flag that matches JavaScript tokens.
+// The regex always matches, even invalid JavaScript and the empty string.
+// The next match is always directly after the previous.
+
+var token = matchToToken(match)
+import {matchToToken} from "js-tokens"
+// or:
+var matchToToken = require("js-tokens").matchToToken
